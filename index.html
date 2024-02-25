@@ -36,7 +36,7 @@
       <!--PREGUNTA 1 - Riego-->
       <fieldset>
         <legend>¿Con qué frecuencia riegas tus plantas?</legend>
-        <label for="semanalmente"><input id="semanalmente" type="radio" name="frecuencia-de-riego" value="semanalmente"/> Una vez a la semana</label>
+        <label for="semanalmente"><input id="semanalmente" type="radio" name="frecuencia-de-riego" value="semanalmente" checked/> Una vez a la semana</label>
         <label for="2-a-6"><input id="2-a-6" type="radio" name="frecuencia-de-riego" value="2 a 6 veces por semana"/> 2 a 6 veces a la semana</label>
         <label for="diario"><input id="diario" type="radio" name="frecuencia-de-riego" value="diariamente" /> Diariamente</label>
         <label for="2-semanas"><input id="2-semanas" type="radio" name="frecuencia-de-riego" value="cada 2 semanas" /> Cada 2 semanas</label>
@@ -46,7 +46,7 @@
       <!--PREGUNTA 2 - Fertilización-->
       <fieldset>
         <legend>¿Con qué frecuencia abonas tus plantas?</legend>
-        <label for="por-semana"><input id="por-semana" type="radio" name="frecuencia-de-fertilizacion" value="semanalmente"/> Semanalmente</label>
+        <label for="por-semana"><input id="por-semana" type="radio" name="frecuencia-de-fertilizacion" value="semanalmente" checked/> Semanalmente</label>
         <label for="por-mes"><input id="por-mes" type="radio" name="frecuencia-de-fertilizacion" value="mensualmente"/> Mensualmente</label>
         <label for="por-año"><input id="por-año" type="radio" name="frecuencia-de-fertilizacion" value="anualmente" /> Anualmente</label>
       </fieldset>
@@ -54,11 +54,11 @@
       <!--PREGUNTA 3 - Tipo de plantas-->
       <fieldset>
         <legend>¿Qué tipo de plantas sueles cultivar?</legend>
-        <label for="ornamental"><input id="ornamental" name="Tipo-ornamentales" type="checkbox" /> Ornamentales</label>
-        <label for="medicinal"><input id="medicinal" name="Tipo-medicinales" type="checkbox" /> Medicinales</label>
-        <label for="alimenticia"><input id="alimenticia" name="Tipo-alimenticias" type="checkbox" /> Alimenticias</label>
-        <label for="aromatica"><input id="aromatica" name="Tipo-aromáticas" type="checkbox" /> Aromáticas (especias)</label>
-        <label for="forrajera"><input id="forrajera" name="Tipo-forrajeras" type="checkbox" /> Forrajeras</label>
+        <label for="ornamental"><input id="ornamental" name="Tipo-ornamentales" type="checkbox" value="sí" /> Ornamentales</label>
+        <label for="medicinal"><input id="medicinal" name="Tipo-medicinales" type="checkbox" value="sí" /> Medicinales</label>
+        <label for="alimenticia"><input id="alimenticia" name="Tipo-alimenticias" type="checkbox" value="sí" /> Alimenticias</label>
+        <label for="aromatica"><input id="aromatica" name="Tipo-aromáticas" type="checkbox" value="sí" /> Aromáticas (especias)</label>
+        <label for="forrajera"><input id="forrajera" name="Tipo-forrajeras" type="checkbox" value="sí" /> Forrajeras</label>
       </fieldset>
 
       <!--PREGUNTA 4 - Otros cuidados-->
@@ -66,7 +66,7 @@
         <label for="otros-cuidados">¿Qué otras medidas aplicas para el cuidado de tus plantas? <textarea id="otros-cuidados" name="otros-cuidados"  placeholder="Enlista los otros cuidados que tienes para con tus plantas" rows="4" cols="34"></textarea> </label>
       </fieldset>
 
-      <input id="submit" type="form" value="Enviar" />
+      <input id="submit" type="submit" value="Enviar" />
     </form>
   </body>
 
