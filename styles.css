@@ -1,6 +1,6 @@
 body {
-    background-color: 265073;
-    color: #F1FADA;
+    background-color: #35374B;
+    color: #78A083;
     font-family: Verdana;
     font-size: 15px;
     width: 90%;
@@ -29,7 +29,8 @@ body {
     border: none;
     padding: 2rem 0;
     padding-top: 0.5rem;
-    border-bottom: 3px dashed #2D9596;
+    border-bottom: 3px dashed #50727B;
+    margin-bottom: 1rem;
   }
   
   label {
@@ -39,7 +40,7 @@ body {
   
   input, textarea, select {
     margin: auto;
-    background-color: #F1FADA;
+    background-color: #aecab6;
     width: 100%;
     margin-top: 0.6em;
   }
@@ -47,7 +48,7 @@ body {
   input {
     border: none;
     min-height: 2em;
-    color: #265073;
+    color: #344955;
   }
   
   select {
@@ -78,7 +79,8 @@ body {
   }
   
   input[type="submit"]:hover {
-    background-color: #2D9596;
+    background-color: #344955;
+    color: white;
   }
   
   input[type="submit"]:active {
