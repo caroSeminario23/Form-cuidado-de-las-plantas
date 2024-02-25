@@ -24,6 +24,7 @@
         <!--edad-->
         <label id="number-label" for="number">Edad: <input id="number" name="edad" type="number" min="0" max="125" placeholder="En años" /></label>
         <!--nivel de estudios-->
+        <label for="dropdown">Nivel de estudios: 
         <select id="dropdown" name="nivel-de-estudios">
           <option>Seleccione una opción</option>
           <option>Escuela incompleta</option>
@@ -31,34 +32,35 @@
           <option>Estudios superiores incompletos</option>
           <option>Estudios superiores completos</option>
         </select>
+        </label>
       </fieldset>
 
       <!--PREGUNTA 1 - Riego-->
       <fieldset>
         <legend>¿Con qué frecuencia riegas tus plantas?</legend>
-        <label for="semanalmente"><input id="semanalmente" type="radio" name="frecuencia-de-riego" value="semanalmente" checked/> Una vez a la semana</label>
-        <label for="2-a-6"><input id="2-a-6" type="radio" name="frecuencia-de-riego" value="2 a 6 veces por semana"/> 2 a 6 veces a la semana</label>
-        <label for="diario"><input id="diario" type="radio" name="frecuencia-de-riego" value="diariamente" /> Diariamente</label>
-        <label for="2-semanas"><input id="2-semanas" type="radio" name="frecuencia-de-riego" value="cada 2 semanas" /> Cada 2 semanas</label>
-        <label for="mensual"><input id="mensual" type="radio" name="frecuencia-de-riego" value="mensualmente" /> Una vez al mes</label>
+        <label for="semanalmente"><input class="inline" id="semanalmente" type="radio" name="frecuencia-de-riego" value="semanalmente" checked/> Una vez a la semana</label>
+        <label for="2-a-6"><input class="inline" id="2-a-6" type="radio" name="frecuencia-de-riego" value="2 a 6 veces por semana"/> 2 a 6 veces a la semana</label>
+        <label for="diario"><input class="inline" id="diario" type="radio" name="frecuencia-de-riego" value="diariamente" /> Diariamente</label>
+        <label for="2-semanas"><input class="inline" id="2-semanas" type="radio" name="frecuencia-de-riego" value="cada 2 semanas" /> Cada 2 semanas</label>
+        <label for="mensual"><input class="inline" id="mensual" type="radio" name="frecuencia-de-riego" value="mensualmente" /> Una vez al mes</label>
       </fieldset>
 
       <!--PREGUNTA 2 - Fertilización-->
       <fieldset>
         <legend>¿Con qué frecuencia abonas tus plantas?</legend>
-        <label for="por-semana"><input id="por-semana" type="radio" name="frecuencia-de-fertilizacion" value="semanalmente" checked/> Semanalmente</label>
-        <label for="por-mes"><input id="por-mes" type="radio" name="frecuencia-de-fertilizacion" value="mensualmente"/> Mensualmente</label>
-        <label for="por-año"><input id="por-año" type="radio" name="frecuencia-de-fertilizacion" value="anualmente" /> Anualmente</label>
+        <label for="por-semana"><input class="inline" id="por-semana" type="radio" name="frecuencia-de-fertilizacion" value="semanalmente" checked/> Semanalmente</label>
+        <label for="por-mes"><input class="inline" id="por-mes" type="radio" name="frecuencia-de-fertilizacion" value="mensualmente"/> Mensualmente</label>
+        <label for="por-año"><input class="inline" id="por-año" type="radio" name="frecuencia-de-fertilizacion" value="anualmente" /> Anualmente</label>
       </fieldset>
 
       <!--PREGUNTA 3 - Tipo de plantas-->
       <fieldset>
         <legend>¿Qué tipo de plantas sueles cultivar?</legend>
-        <label for="ornamental"><input id="ornamental" name="Tipo-ornamentales" type="checkbox" value="sí" /> Ornamentales</label>
-        <label for="medicinal"><input id="medicinal" name="Tipo-medicinales" type="checkbox" value="sí" /> Medicinales</label>
-        <label for="alimenticia"><input id="alimenticia" name="Tipo-alimenticias" type="checkbox" value="sí" /> Alimenticias</label>
-        <label for="aromatica"><input id="aromatica" name="Tipo-aromáticas" type="checkbox" value="sí" /> Aromáticas (especias)</label>
-        <label for="forrajera"><input id="forrajera" name="Tipo-forrajeras" type="checkbox" value="sí" /> Forrajeras</label>
+        <label for="ornamental"><input class="inline" id="ornamental" name="Tipo-ornamentales" type="checkbox" value="sí" /> Ornamentales</label>
+        <label for="medicinal"><input class="inline" id="medicinal" name="Tipo-medicinales" type="checkbox" value="sí" /> Medicinales</label>
+        <label for="alimenticia"><input class="inline" id="alimenticia" name="Tipo-alimenticias" type="checkbox" value="sí" /> Alimenticias</label>
+        <label for="aromatica"><input class="inline" id="aromatica" name="Tipo-aromáticas" type="checkbox" value="sí" /> Aromáticas (especias)</label>
+        <label for="forrajera"><input class="inline" id="forrajera" name="Tipo-forrajeras" type="checkbox" value="sí" /> Forrajeras</label>
       </fieldset>
 
       <!--PREGUNTA 4 - Otros cuidados-->

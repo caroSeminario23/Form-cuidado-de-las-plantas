@@ -1,0 +1,62 @@
+body {
+    background-color: 265073;
+    color: #F1FADA;
+    font-family: Verdana;
+    font-size: 15px;
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+  }
+  
+  h1, p{
+    text-align: center;
+    margin: 1em auto;
+    width: 80%;
+  }
+  
+  form {
+    margin: auto;
+    width: 65vh;
+    padding-top: 7px;
+    padding-bottom: 30px;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    padding-top: 0.5rem;
+    border-bottom: 3px dashed #2D9596;
+  }
+  
+  label {
+    display: block;
+    margin: 1rem 0;
+  }
+  
+  input, textarea, select {
+    margin: auto;
+    background-color: #F1FADA;
+    width: 100%;
+    margin-top: 0.6em;
+  }
+  
+  input {
+    border: none;
+    min-height: 2em;
+    color: #265073;
+  }
+  
+  select {
+    height: 2em;
+    border: none;
+  }
+  
+  .inline {
+    width: unset;
+    vertical-align: middle;
+    margin: 0 0.5em 0 0;
+  }
+  
+  #otros-cuidados {
+    margin-top: 1rem;
+  }
