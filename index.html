@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+  <!--Encabezado de página-->
+  <head>
+    <meta charset="utf-8" />
+    <title>Cuidado de las plantas</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+
+  <!--Desarrollo de encuesta-->
+  <body>
+    <h1 id="title">Formulario sobre el cuidado de las plantas</h1>
+    <p id="description">Las plantas son amigos vegetales que también requieren de cuidados.</p>
+
+    <!--Formulario-->
+    <form id="survey-form">
+
+      <!--Datos del encuestado-->
+      <fieldset>
+        <!--nombre-->
+        <label id="name-label" for="name">Nombre: <input id="name" name="nombre" type="text" required placeholder="Nombre completo" /></label>
+        <!--correo-->
+        <label id="email-label" for="email">Correo electrónico: <input id="email" name="email" type="email" required placeholder="Dirección email" /></label>
+        <!--edad-->
+        <label id="number-label" for="number">Edad: <input id="number" name="edad" type="number" min="0" max="125" placeholder="En años" /></label>
+        <!--nivel de estudios-->
+        <select id="dropdown" name="nivel-de-estudios">
+          <option>Seleccione una opción</option>
+          <option>Escuela incompleta</option>
+          <option>Escuela completa</option>
+          <option>Estudios superiores incompletos</option>
+          <option>Estudios superiores completos</option>
+        </select>
+      </fieldset>
+
+      <!--PREGUNTA 1 - Riego-->
+      <fieldset>
+        <legend>¿Con qué frecuencia riegas tus plantas?</legend>
+        <label for="semanalmente"><input id="semanalmente" type="radio" name="frecuencia-de-riego" value="semanalmente"/> Una vez a la semana</label>
+        <label for="2-a-6"><input id="2-a-6" type="radio" name="frecuencia-de-riego" value="2 a 6 veces por semana"/> 2 a 6 veces a la semana</label>
+        <label for="diario"><input id="diario" type="radio" name="frecuencia-de-riego" value="diariamente" /> Diariamente</label>
+        <label for="2-semanas"><input id="2-semanas" type="radio" name="frecuencia-de-riego" value="cada 2 semanas" /> Cada 2 semanas</label>
+        <label for="mensual"><input id="mensual" type="radio" name="frecuencia-de-riego" value="mensualmente" /> Una vez al mes</label>
+      </fieldset>
+
+      <!--PREGUNTA 2 - Fertilización-->
+      <fieldset>
+        <legend>¿Con qué frecuencia abonas tus plantas?</legend>
+        <label for="por-semana"><input id="por-semana" type="radio" name="frecuencia-de-fertilizacion" value="semanalmente"/> Semanalmente</label>
+        <label for="por-mes"><input id="por-mes" type="radio" name="frecuencia-de-fertilizacion" value="mensualmente"/> Mensualmente</label>
+        <label for="por-año"><input id="por-año" type="radio" name="frecuencia-de-fertilizacion" value="anualmente" /> Anualmente</label>
+      </fieldset>
+
+      <!--PREGUNTA 3 - Tipo de plantas-->
+      <fieldset>
+        <legend>¿Qué tipo de plantas sueles cultivar?</legend>
+        <label for="ornamental"><input id="ornamental" name="Tipo-ornamentales" type="checkbox" /> Ornamentales</label>
+        <label for="medicinal"><input id="medicinal" name="Tipo-medicinales" type="checkbox" /> Medicinales</label>
+        <label for="alimenticia"><input id="alimenticia" name="Tipo-alimenticias" type="checkbox" /> Alimenticias</label>
+        <label for="aromatica"><input id="aromatica" name="Tipo-aromáticas" type="checkbox" /> Aromáticas (especias)</label>
+        <label for="forrajera"><input id="forrajera" name="Tipo-forrajeras" type="checkbox" /> Forrajeras</label>
+      </fieldset>
+
+      <!--PREGUNTA 4 - Otros cuidados-->
+      <fieldset>
+        <label for="otros-cuidados">¿Qué otras medidas aplicas para el cuidado de tus plantas? <textarea id="otros-cuidados" name="otros-cuidados"  placeholder="Enlista los otros cuidados que tienes para con tus plantas" rows="4" cols="34"></textarea> </label>
+      </fieldset>
+
+      <input id="submit" type="form" value="Enviar" />
+    </form>
+  </body>
+
+  <footer>
+    <p>¡Gracias por participar en esta encuesta!</p>
+  </footer>
+</html>
