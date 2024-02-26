@@ -10,5 +10,5 @@ Finalizado
 - **Lenguajes de programación:** HTML y CSS
 - **Entorno de desarrollo:** Visual Studio Code
 
-## Imágenes del proyecto
-![Captura de pantalla del formulario](Captura.jpeg)
+## Captura de la página web
+![Captura de pantalla del formulario actualizada](Captura.jpeg)
