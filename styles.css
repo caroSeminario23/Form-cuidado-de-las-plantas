@@ -2,8 +2,8 @@ body {
     background-color: #35374B;
     color: #78A083;
     font-family: Verdana;
-    font-size: 15px;
-    width: 90%;
+    font-size: 2vh;
+    width: 60vw;
     height: 100vh;
     margin: auto;
   }
@@ -11,31 +11,37 @@ body {
   h1, p{
     text-align: center;
     margin: 1em auto;
-    width: 80%;
+    width: 80vw;
+    margin-left: -8vw;
   }
   
+  h1 {
+    padding-top: 5vh;
+  }
+
   #description {
     font-style: italic;
   }
   
   form {
     margin: auto;
-    width: 65vh;
-    padding-top: 7px;
-    padding-bottom: 30px;
+    width: 70vw;
+    padding-top: 1vh;
+    padding-bottom: 5vh;
+    margin-left:-4vw;
   }
   
   fieldset {
     border: none;
-    padding: 2rem 0;
-    padding-top: 0.5rem;
-    border-bottom: 3px dashed #50727B;
-    margin-bottom: 1rem;
+    padding: 4vh 0;
+    padding-top: 2vh;
+    border-bottom: 0.5vh dashed #50727B;
+    margin-bottom: 3vh;
   }
   
   label {
     display: block;
-    margin: 1rem 0;
+    margin: 1vh 0;
   }
   
   input, textarea, select {
@@ -43,17 +49,19 @@ body {
     background-color: #aecab6;
     width: 100%;
     margin-top: 0.6em;
+    font-size: 2vh;
+    color: #344955;
   }
   
   input {
     border: none;
-    min-height: 2em;
-    color: #344955;
+    min-height: 3.5vh;
   }
   
   select {
-    height: 2em;
+    height: 3.5vh;
     border: none;
+    width: 100.5%;
   }
   
   .inline {
@@ -63,18 +71,22 @@ body {
   }
   
   #otros-cuidados {
-    margin-top: 1rem;
+    margin-top: 3vh;
+  }
+
+  #pregunta-otros-cuidados {
+    margin-top: -1.8vh;
   }
   
   input[type="submit"] {
     display: block;
-    width: 50%;
-    height: 2em;
-    margin-top: 2rem;
+    width: 40%;
+    height: 5vh;
+    margin-top: 5vh;
   }
   
   footer {
-    padding-bottom: 50px;
+    padding-bottom: 10vh;
     font-style: italic;
   }
   
