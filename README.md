@@ -3,7 +3,7 @@
 ## Descripción del proyecto
 Formulario de prueba elaborado con la finalidad de aplicar conocimientos básicos de html y css.
 ### Enlace de visualización
-[Presione aquí para acceder](https://caroseminario23.github.io/Form-cuidado-de-las-plantas/)
+<a href="https://caroseminario23.github.io/Form-cuidado-de-las-plantas/" target="_blank">Presione aquí para acceder</a>
 
 ## Estado del proyecto
 Finalizado
